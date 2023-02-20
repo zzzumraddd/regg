@@ -1,0 +1,347 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#0A22A8"
+    tools:context=".Sky"
+    android:id="@+id/sky"
+    >
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/star1"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/star2"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/star3"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/star1"
+        app:srcCompat="@drawable/star" />
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/star3"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/star5"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginStart="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/star4"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/star3"
+        app:srcCompat="@drawable/star" />
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/star4"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginStart="30dp"
+        android:layout_marginBottom="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/star6"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginBottom="50dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/star7"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginBottom="30dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/star8"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toTopOf="@+id/star4"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/star3"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/star9"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+       android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/star10"
+        android:layout_width="65dp"
+        android:layout_height="65dp"
+        app:layout_constraintBottom_toTopOf="@+id/star11"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/star9"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/star11"
+        android:layout_width="150dp"
+        android:layout_height="150dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/moon" />
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/star12"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginTop="50dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        android:layout_marginEnd="30dp"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/star13"
+        android:layout_width="80dp"
+        android:layout_height="80dp"
+        android:layout_marginEnd="30dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/star14"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/star13"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/star12"
+        app:srcCompat="@drawable/star" />
+
+    <ImageView
+        android:visibility="visible"
+        android:id="@+id/star15"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_marginEnd="50dp"
+        app:layout_constraintBottom_toTopOf="@+id/star7"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/star13"
+        app:srcCompat="@drawable/star" />
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:id="@+id/day"
+        android:visibility="invisible"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#70E4FF"
+        >
+
+        <ImageView
+            android:id="@+id/cloud1"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="28dp"
+            android:layout_marginTop="48dp"
+            android:visibility="visible"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cloud" />
+
+        <ImageView
+            android:id="@+id/cloud2"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="48dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/cloud3"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cloud1"
+
+            app:srcCompat="@drawable/cloud" />
+
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/cloud3"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cloud" />
+
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/cloud5"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginStart="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cloud4"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cloud3"
+            app:srcCompat="@drawable/cloud" />
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/cloud4"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginStart="30dp"
+            android:layout_marginBottom="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/cloud" />
+
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/cloud6"
+            android:layout_width="50dp"
+            android:layout_height="50dp"
+            android:layout_marginBottom="50dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:srcCompat="@drawable/cloud" />
+
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/cloud7"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginBottom="30dp"
+            android:layout_marginEnd="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:srcCompat="@drawable/cloud" />
+
+        <ImageView
+            android:id="@+id/cloud8"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            android:visibility="visible"
+            app:layout_constraintBottom_toTopOf="@+id/cloud4"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cloud3"
+            app:layout_constraintVertical_bias="0.553"
+            app:srcCompat="@drawable/cloud" />
+
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/cloud9"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginTop="50dp"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cloud" />
+
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/cloud11"
+            android:layout_width="65dp"
+            android:layout_height="65dp"
+            app:layout_constraintBottom_toTopOf="@+id/sun"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cloud9"
+            app:srcCompat="@drawable/cloud" />
+
+
+        <ImageView
+            android:id="@+id/cloud12"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginTop="48dp"
+            android:layout_marginEnd="28dp"
+            android:visibility="visible"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cloud" />
+
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/cloud13"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:layout_marginEnd="30dp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toTopOf="parent"
+            app:srcCompat="@drawable/cloud" />
+
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/cloud14"
+            android:layout_width="150dp"
+            android:layout_height="150dp"
+            android:layout_marginEnd="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cloud13"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cloud12"
+            app:srcCompat="@drawable/cloud" />
+
+        <ImageView
+            android:visibility="visible"
+            android:id="@+id/cloud15"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:layout_marginEnd="50dp"
+            app:layout_constraintBottom_toTopOf="@+id/cloud7"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/cloud13"
+            app:srcCompat="@drawable/cloud" />
+    <ImageView
+        android:id="@+id/sun"
+        android:layout_width="250dp"
+        android:layout_height="250dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:srcCompat="@drawable/sun" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</androidx.constraintlayout.widget.ConstraintLayout>
